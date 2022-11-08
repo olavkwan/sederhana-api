@@ -16,5 +16,5 @@ let object =  [
 aplikasi.get("/", function(request, response){
     response.json({ pesan : "Data berhasil di ambil", rizka : object });
 })
-
+// ini komentar saya
 aplikasi.listen(3002);
